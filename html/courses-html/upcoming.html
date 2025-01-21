@@ -23,7 +23,7 @@
       rel="stylesheet"
     />
     <!-- here dont change any files -->
-    <link rel="stylesheet" href="./css/upcoming.css" />
+    <link rel="stylesheet" href="/css/courses-css/upcoming.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -58,34 +58,34 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="/home">Home</a>
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/courses">Courses</a>
+                <a class="nav-link" href="/courses-home.html">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/portfolio">Project Portfolio</a>
+                <a class="nav-link" href="/index.html">Project Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/placement">Placement</a>
+                <a class="nav-link" href="/placement.html">Placement</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">About Us</a>
+                <a class="nav-link" href="/aboutUs.html">About Us</a>
               </li>
             </ul>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="/blog">Blog</a>
+                <a class="nav-link" href="/html/blog-html/blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/resources">Free Resources</a>
+                <a class="nav-link" href="/resource.html">Free Resources</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact Us</a>
+                <a class="nav-link" href="/contactUs.html">Contact Us</a>
               </li>
             </ul>
             <!-- Button -->
-            <a href="/get-started" class="btn btn-success ms-3">Get Started</a>
+            <a href="/courses-home.html" class="btn btn-success ms-3">Get Started</a>
           </div>
         </div>
       </nav>
@@ -96,15 +96,25 @@
     </header>
     <!-- header end -->
     <div class="cotainer first-heading">
-        <h1 style="font-size: 4rem;">Upcoming Courses/Workshops Section</h1>
+      <h1 style="font-size: 4rem">Upcoming Courses/Workshops Section</h1>
     </div>
-    <div class="container mt-2" >
-        <nav class="nav2 ">
-          <button style="border-radius: 10px; padding: 4px;" ><a style="font-size: 1.5rem;" href="/vs code/home.html">Courses</a></button>
-          <button  style="border-radius: 10px; padding: 4px;" ><a style="font-size: 1.5rem;" href="/vs code/upcoming.html">Upcoming Courses/Workshops Section</a></button>
-          <button style="border-radius: 10px; padding: 4px;" ><a style="font-size: 1.5rem;" href="/vs code/ongonig.html">Ongoing Courses</a></button>
-        </nav>
-      </div>
+    <div class="container mt-2">
+      <nav class="nav2">
+        <button style="border-radius: 10px; padding: 4px">
+          <a style="font-size: 1.5rem" href="/courses-home.html">Courses</a>
+        </button>
+        <button style="border-radius: 10px; padding: 4px">
+          <a style="font-size: 1.5rem" href="/html/courses-html/upcoming.html"
+            >Upcoming Courses/Workshops Section</a
+          >
+        </button>
+        <button style="border-radius: 10px; padding: 4px">
+          <a style="font-size: 1.5rem" href="/html/courses-html/ongoing.html"
+            >Ongoing Courses</a
+          >
+        </button>
+      </nav>
+    </div>
 
     <section class="section">
       <div class="course-container">
@@ -348,5 +358,20 @@
         </div>
       </div>
     </footer>
+    <!-- Add FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      document
+        .getElementById("view-map")
+        .addEventListener("click", function () {
+          window.open("https://goo.gl/maps/example", "_blank");
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
