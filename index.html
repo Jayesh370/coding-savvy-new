@@ -455,7 +455,7 @@
             </p>
             <button
               class="btn view-map"
-              onclick="window.open('https://goo.gl/maps/example', '_blank')"
+              onclick="window.open('https://www.google.com/maps/dir/@18.4699278,73.8301434,3698m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D', '_blank')"
             >
               View on Map
             </button>
@@ -571,12 +571,6 @@
         duration: 1000, // Animation ka time in milliseconds
         offset: 120, // Animation start hone ki distance
       });
-
-      document
-        .getElementById("view-map")
-        .addEventListener("click", function () {
-          window.open("https://goo.gl/maps/example", "_blank");
-        });
       // student-contribution-section
 
       const carousel = new bootstrap.Carousel("#studentCarousel", {
